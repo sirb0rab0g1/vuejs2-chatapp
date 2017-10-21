@@ -6,7 +6,6 @@ import Register from '@/components/Register'
 import Live from '@/components/Live'
 import Friendslist from '@/components/Friendslist'
 import Message from '@/components/Message'
-import Footer from '@/components/Footer'
 
 Vue.use(Router)
 
@@ -36,11 +35,6 @@ export default new Router({
       path: '/Message',
       name: 'Message',
       component: Message
-    },
-    {
-      path: '/Footer',
-      name: 'Footer',
-      component: Footer
     }
   ]
 })
