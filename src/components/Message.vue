@@ -126,7 +126,7 @@
       },
       starstream () {
         this.showCam = true
-        let constraints = { audio: true, video: true }
+        let constraints = { audio: false, video: true }
         navigator.getMedia = (navigator.getUserMedia ||
                            navigator.webkitGetUserMedia ||
                            navigator.mozGetUserMedia ||

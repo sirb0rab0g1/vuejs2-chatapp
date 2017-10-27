@@ -34,7 +34,7 @@
                 ></v-text-field>
                 <div class="text-xs-right">
                   <router-link to='/Register'>
-                    <a style="float:left;margin-top:15px;">Forgot Password?</a>
+                    <a style="float:left;margin-top:15px;">Register</a>
                   </router-link>
                   <v-btn primary dark @click="login">Login</v-btn>
                 </div>
