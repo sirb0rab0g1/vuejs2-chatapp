@@ -3,6 +3,6 @@ var prodEnv = require('./prod.env')
 
 module.exports = merge(prodEnv, {
   NODE_ENV: '"development"',
-  API_URL: '"http://localhost:8000"',
-  WS_URL:'"ws://localhost:8000"',
+  API_URL: '"https://whoyou.herokuapp.com"',
+  WS_URL:'"ws://whoyou.herokuapp.com"',
 })
