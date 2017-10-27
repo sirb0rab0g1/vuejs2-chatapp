@@ -41,7 +41,7 @@
                   v-validate="'required|max:10'"
                   data-vv-name="repassword"
                   required
-                  type="repassword"
+                  type="password"
                 ></v-text-field>
                 <v-text-field
                   v-model="alias"

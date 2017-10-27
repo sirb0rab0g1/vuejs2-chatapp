@@ -15,9 +15,9 @@
               <form>
                 <v-text-field
                   v-model="username"
-                  label="Username"
+                  label="Email"
                   :counter="10"
-                  :error-messages="errors.collect('username')"
+                  :error-messages="errors.collect('Email')"
                   v-validate="'required|max:10'"
                   data-vv-name="username"
                   required
